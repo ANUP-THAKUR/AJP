@@ -7,7 +7,7 @@ public class Review {
     private String reviewText;
     private int rating;
 
-    // Constructors
+
     public Review(int reviewId, int bookId, int userId, String reviewText, int rating) {
         this.reviewId = reviewId;
         this.bookId = bookId;
@@ -16,7 +16,7 @@ public class Review {
         this.rating = rating;
     }
 
-    // Getters and Setters
+    
     public int getReviewId() {
         return reviewId;
     }
