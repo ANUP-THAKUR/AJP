@@ -12,12 +12,12 @@ public class IDGenerator {
              ResultSet resultSet = statement.executeQuery()) {
             if (resultSet.next()) {
                 int maxId = resultSet.getInt("max_id");
-                return maxId + 1; // Increment the highest ID by 1
+                return maxId + 1; 
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return 1; // Start from 1 if table is empty
+        return 1; 
     }
 }
 
