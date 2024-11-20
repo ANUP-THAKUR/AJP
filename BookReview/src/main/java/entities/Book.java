@@ -5,14 +5,14 @@ public class Book {
     private String title;
     private String author;
 
-    // Constructors
+
     public Book(int bookId, String title, String author) {
         this.bookId = bookId;
         this.title = title;
         this.author = author;
     }
 
-    // Getters and Setters
+   
     public int getBookId() {
         return bookId;
     }
